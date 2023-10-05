@@ -1,0 +1,36 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+body {
+    background-color: lightgray;
+    background-image: url("https://transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.container{
+    max-width: 955px;
+    background-color: red;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}

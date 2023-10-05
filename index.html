@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Chat App</title>
+    <link rel="stylesheet" href="css/styleNew.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="chat" style="display: none;">
+            <nav>
+                <img class="logo" src="mjlogo.png" alt="">
+            </nav>
+        
+            <div class="container">
+                <div class="message right">this is right<p>name</p></div>
+                <div class="message left">this is left<p>name</p></div>
+                <div class="message center">center</div>
+            </div>
+            <div class="send">
+                <form action="#" id="send-container">
+                    <input type="text" id="messageInput" name="messageInput">
+                    <button type="submit" id="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="landing">
+            <nav>
+                <img class="logo" src="mjlogo.png" alt="">
+            </nav>
+            <input type="text" id="name" placeholder="Enter your name">
+            <button onclick="enterChat()">Enter</button>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js"></script>
+    <script  src="js/script.js"></script>
+</body>
+
+</html>
